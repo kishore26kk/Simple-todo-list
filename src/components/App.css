@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.app{
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  font-weight: 900;
+  font-style: italic;
+}
+.section {
+  height:auto;
+}
+.button{
+  margin-left:8px;
+  height: 40px;
+  border: 1px solid #ffa94d;
+  background-color: #ffa94d;
+  font-weight: 400;
+  padding: 9px 24px;
+  cursor: pointer;
+}
+input{
+  width:25rem;
+   font-size: 16px;
+   padding: 8px 12px;
+   border: 1px solid #ffe8cc;
+   font-family: inherit;
+   color: inherit;
+}
+ul{
+  margin-left:76px;
+}
+.list{
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  text-align: center;
+  width:80%;
+  height : 50px;
+  background-color: #f3f1f4;
+}
+.list{
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  text-align: center;
+  width:80%;
+  height : 50px;
+  background-color: #f3f1f4;
+}
+.list-selected{
+  cursor: not-allowed;
+  margin-top:20px;
+  color:green;
+  text-decoration: line-through;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  text-align: center;
+  width:80%;
+  height : 50px;
+  background-color: #f3f1f4;
+}
+.finishBtn{
+  background: none;
+  color:green;
+  font-size: 30px;
+  width:45px;
+  border:none;
+}
+.closeBtn{
+  background: none;
+  color:red;
+  font-size: 30px;
+  width:45px;
+  border:none;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
